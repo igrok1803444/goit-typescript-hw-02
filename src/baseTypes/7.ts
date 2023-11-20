@@ -13,10 +13,7 @@ enum week {
 }
 
 function isWeekend(day:string):boolean {
-  if (day.toLowerCase() === 'saturday'||'sunday' ) {
-    return true
-  } else {
-    return false
-  }
+  return day.toLowerCase() === 'saturday'|| day.toLowerCase() === 'sunday' 
+  
 }
 
